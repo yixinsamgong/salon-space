@@ -1,4 +1,4 @@
-# Phase 2 Project 
+# Phase 2 Project (Akilah & Yixin)
 
 ## Flatiron Art Salon 
 
