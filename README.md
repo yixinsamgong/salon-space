@@ -20,5 +20,5 @@ We will store data in our db.json file.
 ## Features
 
 * Individual cards for students
-* Search bar to find artworks through medius
+* Search bar to find artworks through medium
 * Form to submit new artworks
