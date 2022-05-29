@@ -6,12 +6,13 @@ The function of our app is for users to be able to search artworks by medium. We
 
 ## Components
 
-1. APP
+1. App
 2. Header
 3. Search Bar
 4. Artwork Container
 5. Artwork Card
-6. New Artwork form
+6. New Artwork Form
+
 
 ![Sketch](https://github.com/sam1993125/phase-2-project/blob/main/public/IMG_6604.jpg?raw=true)
 
@@ -21,6 +22,6 @@ We will store data in our db.json file.
 
 ## Features
 
-* Individual cards for students
+* Individual cards for artworks
 * Search bar to find artworks through medium
-* Form to submit new artworks
+* A form to submit new artworks
