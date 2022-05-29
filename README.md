@@ -13,6 +13,8 @@ The function of our app is for users to be able to search artworks by medium. We
 5. Artwork Card
 6. New Artwork form
 
+![alt text](https://files.slack.com/files-pri/T02MD9XTF-F03H6LVNRFD/img_6604.jpg)
+
 ## Database
 
 We will store data in our db.json file.
