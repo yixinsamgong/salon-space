@@ -8,17 +8,18 @@ The function of our app is for users to be able to search artworks by medium. We
 
 1. App
 2. Header
-3. Search Bar
-4. Artwork Container
-5. Artwork Card
-6. New Artwork Form
+3. NavBar
+4. Search Bar
+5. Artwork Container
+6. Artwork Card
+7. New Artwork Form
 
 ### Sketch
 ![Sketch](https://github.com/sam1993125/phase-2-project/blob/main/public/IMG_6604.jpg?raw=true)
 
 ## Database
 
-We will store data in our db.json file.
+We will store data in our own db.json file.
 
 ## Features
 
