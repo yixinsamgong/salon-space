@@ -13,7 +13,7 @@ The function of our app is for users to be able to search artworks by medium. We
 5. Artwork Card
 6. New Artwork Form
 
-# Sketch
+### Sketch
 ![Sketch](https://github.com/sam1993125/phase-2-project/blob/main/public/IMG_6604.jpg?raw=true)
 
 ## Database
