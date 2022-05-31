@@ -1,9 +1,20 @@
 import React from 'react'
+import ArtworkCard from "./ArtworkCard"
 
-function ArtworkContainer() {
+function ArtworkContainer({artworks}) {
+
+  const artworkCard = artworks.map((artwork)=> (
+      <ArtworkCard 
+        key={artwork.id}
+        artwork={artwork}
+      />
+  ))
+
   return (
-    <div>ArtworkContainer</div>
+    <ul className="cards">
+      {artworkCard} 
+    </ul>
   )
 }
 
-export default ArtworkContainer
+export default ArtworkContainer;

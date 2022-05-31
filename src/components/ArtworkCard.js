@@ -1,9 +1,13 @@
 import React from 'react'
+import ArtworkContainer from './ArtworkContainer';
 
-function ArtworkCard() {
-  return (
-    <div>ArtworkCard</div>
-  )
+function ArtworkCard({ artworks }) {
+
+
+
+
+
+
 }
 
-export default ArtworkCard
+export default ArtworkCard;
