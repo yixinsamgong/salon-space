@@ -24,6 +24,12 @@ function App() {
       artwork.title.toUpperCase().includes(search.toUpperCase())
   )
 
+  function handleAddArtwork(newArtwork) {
+    const updatedArtworkArray = [...artworks, newArtwork];
+    setArtworks(updatedArtworkArray);
+
+  }
+
   return (
     <div>
       <Header />
@@ -37,7 +43,7 @@ function App() {
               <About />
           </Route>
           <Route exact path="/form">
-              <NewArtworkForm />
+              <NewArtworkForm onAddArtwork={handleAddArtwork} />
           </Route>
       </Switch>
     </div>
