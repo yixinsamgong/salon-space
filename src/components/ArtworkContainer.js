@@ -1,8 +1,18 @@
 import React from 'react'
 
-function ArtworkContainer() {
+import ArtworkCard from "./ArtworkCard"
+
+function ArtworkContainer({artworks}) {
   return (
-    <div>ArtworkContainer</div>
+    <ul classname="cards">
+      {/* {artworks.map((artwork)=> */}
+      <ArtworkCard 
+        // key={artwork.id}
+        // artwork={artwork}
+      />
+    {/* )} */}
+    </ul>
+
   )
 }
 
