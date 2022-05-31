@@ -1,19 +1,26 @@
 import React from 'react'
 
-function ArtworkCard() {
-  return (
+function ArtworkCard({artwork}) {
 
+  const {medium, artist, title, year, image} = artwork
+
+  return (
     <li className="card">
-      <img src={"https://via.placeholder.com/400"} alt={"plant name"} />
-      <h4>{"plant name"}</h4>
-      <p>Price: {"plant price"}</p>
+      <img src={image} alt={artist} />
+      <h4>{artist}</h4>
+      <p>{title}</p>
+      <p>{year}</p>
+      <p>{medium}</p>
       {true ? (
         <button className="primary">♥</button>
       ) : (
-        <button>♥</button>
-      )}
+        <button>♡</button>
+      )
+      }
     </li>
   )
 }
+
+
 
 export default ArtworkCard

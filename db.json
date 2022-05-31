@@ -1,0 +1,102 @@
+{
+	"artworks": [
+		{
+			"id": 1,
+			"medium": "watercolor",
+			"artist": "Sam Gillian",
+			"title": "Watercolor 4",
+			"year": 1969,
+			"image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png"
+		},
+		{
+			"id": 2,
+			"medium": "silkscreen",
+			"artist": "Roy Ahlgren",
+			"title": "Palpitation",
+			"year": 1979,
+			"image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg"
+
+
+		},
+		{
+			"id": 3,
+			"medium": "photography",
+			"artist": "Alice Mann",
+			"title": "Siphithemba Mshengu",
+			"year": 2018,
+			"image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg"
+
+		}, 
+		{
+			"id": 4,
+			"medium": "acrylic paint",
+			"artist": "Lee Ufan",
+			"title": "From Line",
+			"year": 1974,
+			"image": "https://uploads2.wikiart.org/images/lee-ufan/from-line-1974.jpg"
+
+		},
+		{
+			"id": 5,
+			"medium": "oil painting",
+			"artist": "Agnes Martin",
+			"title": "Friendship",
+			"year": "1963",
+			"image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FBC/production/_112746596_a289f207-69f8-4fb9-b3a7-8ee0fff6126d.jpg"
+
+		}, 
+		{
+			"id": 6,
+			"medium": "silkscreen",
+			"artist": "Marina Abramovic",
+			"title": "Homage to Frida Kahlo (Portrait with Scorpion",
+			"year": 2014,
+			"image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FBC/production/_112746596_a289f207-69f8-4fb9-b3a7-8ee0fff6126d.jpg"
+
+		}, 
+		{
+			"id": 7,
+			"medium": "oil painting",
+			"artist": "Joan Mitchell",
+			"title": "Wood, Wind, No Tuba",
+			"year": 1980,
+			"image": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1/auctions/NY010720/21_001.jpg"
+
+		}, 
+		{
+			"id": 8,
+			"medium": "photography",
+			"artist": "Larry Cook",
+			"title": "The Visiting Room #4",
+			"year": 2019,
+			"image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg"
+		},
+		{
+			"id": 9,
+			"medium": "oil painting",
+			"artist": "Sam Moyer",
+			"title": "Large Payne 11",
+			"year": 2021,
+			"image": "https://i.pinimg.com/originals/29/73/3d/29733d2c3e44ff8a83fd62720b2cd526.jpg"
+
+		},
+		{
+			"id": 10,
+			"medium": "sculpture",
+			"artist": "Robert Smithson",
+			"title": "Corner Mirror with Coral",
+			"year": 1969,
+			"image": "https://i.pinimg.com/originals/29/73/3d/29733d2c3e44ff8a83fd62720b2cd526.jpg"
+
+		},
+		{
+			"id": 11,
+			"medium": "acrylic",
+			"artist": "Raymond Johnson",
+			"title": "Polymer No. 14",
+			"year": 1968,
+			"image": "https://addisonrowe.art/wp-content/gallery/jonson_raymond/Jonson-Raymond-Polymer-14-1968-unframed.jpg"
+
+		}
+	]
+} 
