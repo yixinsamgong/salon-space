@@ -1,0 +1,181 @@
+{"artworks": [
+    {
+        "id": 1,
+        "medium": "watercolor",
+        "artist": "Sam Gillian",
+        "title": "Watercolor 4",
+        "year": 1969,
+        "image": "https://www.moma.org/media/W1siZiIsIjMxODc5NiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=2609c661c0605e25"
+    },
+    
+    {
+        "id": 2,
+        "medium": "silkscreen",
+        "artist": "Roy Ahlgren",
+        "title": "Palpitation",
+        "year": 1979,
+        "image": "https://chairish-prod.freetls.fastly.net/image/product/sized/f505dbc5-3e66-470d-bb15-39428283a5f8/roy-ahlgren-palpitation-graphic-abstract-serigraph-2413?aspect=fit&width=1600&height=1600" 
+
+    },
+    {
+        "id": 3,
+        "medium": "photography",
+        "artist": "Alice Mann",
+        "title": "Siphithemba Mshengu",
+        "year": 2018,
+        "image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg" 
+
+    }, {
+        "id": 4,
+        "medium": "acrylic paint",
+        "artist": "Lee Ufan",
+        "title": "From Line",
+        "year": 1974,
+        "image": "https://uploads2.wikiart.org/images/lee-ufan/from-line-1974.jpg"
+
+    },
+    {
+        "id": 5,
+        "medium": "oil painting",
+        "artist": "Agnes Martin",
+        "title": "Friendship",
+        "year": "1963",
+        "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FBC/production/_112746596_a289f207-69f8-4fb9-b3a7-8ee0fff6126d.jpg"
+
+    }, {
+        "id": 6,
+        "medium": "silkscreen",
+        "artist": "Marina Abramovic",
+        "title": "Homage to Frida Kahlo (Portrait with Scorpion",
+        "year": 2014,
+        "image": 
+
+    }, {
+        "id": 7,
+        "medium": "oil painting",
+        "artist": "Joan Mitchell",
+        "title": "Wood, Wind, No Tuba",
+        "year": 1980,
+        "image": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1/auctions/NY010720/21_001.jpg"
+
+    }, {
+        "id": 8,
+        "medium": "photography",
+        "artist": "Larry Cook",
+        "title": "The Visiting Room #4",
+        "year": 2019,
+        "imahge": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2020/10/LarryCook_TheVisitingRoom4-web-1500x2000-1.jpeg?w=1460&quality=100&ssl=1"
+    }, 
+    {
+        "id": 9,
+        "medium": "oil painting",
+        "artist": "Sam Moyer",
+        "title": "Large Payne 11",
+        "year": 2021,
+        "image":"data:image/jpeg;base64,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"
+
+    }, 
+    {
+        "id": 10,
+        "medium": "sculpture",
+        "artist": "Robert Smithson",
+        "title": "Corner Mirror with Coral",
+        "year": 1969,
+        "image": "https://i.pinimg.com/originals/29/73/3d/29733d2c3e44ff8a83fd62720b2cd526.jpg"
+
+    }, 
+    {
+        "id": 11,
+        "medium": "acrylic",
+        "artist": "Raymond Johnson",
+        "title": "Polymer No. 14",
+        "year": 1968,
+        "image": "https://addisonrowe.art/wp-content/gallery/jonson_raymond/Jonson-Raymond-Polymer-14-1968-unframed.jpg"
+
+    }, 
+    {
+        "id": 12,
+        "medium": "oil",
+        "artist": "Julia Rommel",
+        "title": "Volvo",
+        "year": 2019,
+        "image": "https://images.ctfassets.net/hp42m99tzs4o/60Xofu7hxIa4d9cZYeBKUX/6cae4567699bbe17c8d26a56a84b0473/JR.2019.P.3389.Volvo240.crop.nil.jpg?w=900&h=1151&q=60&fm=webp"
+
+    },
+    `{
+        "id": 13,
+        "medium": "print",
+        "artist": "Martha Tuttle",
+        "title": "Water / Skin",
+        "year": 2017,
+        "image": "https://www.ulae.com/static/6c1a4f642c8c303374ed5b6b2bd310e3/04d61/MarthaTuttle_2017_WaterSkin%402x.webp"
+
+    }, 
+    {
+        "id": 14,
+        "medium": "oil",
+        "artist": "Gerhard Richter",
+        "title": "Grey Streaks",
+        "year": 1968,
+        "image": "https://www.gerhard-richter.com/datadir/images_new/xxlarge/2931.jpg"
+
+    },
+    {
+        "id": 15,
+        "medium": "sculpture",
+        "artist": "Anicka Yi",
+        "title": "Shampelex",
+        "year": 2015,
+        "image":"https://www.gladstonegallery.com/sites/default/files/AY_07_e.jpg"
+
+    },
+    {
+        "id": 16,
+        "medium": "oil",
+        "artist": "Amy Sillman",
+        "title": "Table 2",
+        "year": 2015,
+        "image": "https://i.pinimg.com/564x/47/18/fc/4718fce48b495958b052c72612ef865c.jpg"
+
+    },
+    {
+        "id": ,
+        "medium": ,
+        "artist": ,
+        "title": ,
+        "year": ,
+        "image":
+
+    },
+    {
+        "id": ,
+        "medium": ,
+        "artist": ,
+        "title": ,
+        "year": ,
+        "image":
+
+    },
+    {
+        "id": ,
+        "medium": ,
+        "artist": ,
+        "title": ,
+        "year": ,
+        "image":
+
+    },
+    {
+        "id": ,
+        "medium": ,
+        "artist": ,
+        "title": ,
+        "year": ,
+        "image":
+
+    },
+
+
+
+  ]
+}
