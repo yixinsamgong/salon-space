@@ -5,6 +5,7 @@ import NavBar from "./NavBar"
 import SearchBar from "./SearchBar"
 import ArtworkContainer from "./ArtworkContainer"
 import NewArtworkForm from "./NewArtworkForm"
+import Database from "./Database"
 import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,29 +22,34 @@ function App() {
 
 
   const displayArtworks = artworks.filter((artwork) => 
-      artwork.title.toUpperCase().includes(search.toUpperCase())
+      Object.values(artwork).join(" ").toLowerCase().includes(search.toLowerCase())
   )
 
-  function handleAddArtwork(newArtwork) {
+  function addNewArtwork(newArtwork) {
     const updatedArtworkArray = [...artworks, newArtwork];
     setArtworks(updatedArtworkArray);
-
   }
+
+
 
   return (
     <div>
       <Header />
       <NavBar />
         <Switch>
-          < Route exact path="/">
+          < Route exact path="/home">
               <SearchBar searchTerm={search} onSearchChange={setSearch}/>
               <ArtworkContainer artworks={displayArtworks}/>
            </Route>
            <Route exact path="/about">
               <About />
           </Route>
+          <Route exact path="/database">
+              <SearchBar searchTerm={search} onSearchChange={setSearch}/>
+              <Database />
+          </Route>
           <Route exact path="/form">
-              <NewArtworkForm onAddArtwork={handleAddArtwork} />
+              <NewArtworkForm onAddArtwork={addNewArtwork} />
           </Route>
       </Switch>
     </div>

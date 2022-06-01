@@ -4,17 +4,22 @@ import { NavLink } from "react-router-dom"
 
 function NavBar() {
   return (
-    <div>
-      <NavLink to="/" >
-        Home
+    <nav>
+      <div>
+      <NavLink to="/home"  className="btn">
+        My Collection
       </NavLink>
-      <NavLink to="/form">
-      New Artwork Form
+      <NavLink to="/database" className="btn">
+          Database
       </NavLink>
-      <NavLink to="/about">
+      <NavLink to="/form" className="btn">
+      New Artwork Submission
+      </NavLink>
+      <NavLink to="/about" className="btn">
         About
       </NavLink>
-    </div>
+      </div>
+    </nav>
   )
 }
 export default NavBar

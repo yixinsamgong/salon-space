@@ -20,9 +20,9 @@ function NewArtworkForm({ onAddArtwork }) {
   function handleSubmit(e) {
     e.preventDefault(); //prevent page from refreshing
 //fetch request with POST
-    fetch("http://localhost:3004/artworks", {
+    fetch("http://localhost:4000/artworks", {
       method: "POST",
-      header: {
+      headers: {
         "Content-type": "application/json",
       },
       body: JSON.stringify({
@@ -35,9 +35,11 @@ function NewArtworkForm({ onAddArtwork }) {
     })
       .then((response)  => response.json())
       .then((newArtwork) => onAddArtwork(newArtwork));
-
     //add new artwork to page
   }
+
+
+
 
 
   return (
@@ -50,21 +52,18 @@ function NewArtworkForm({ onAddArtwork }) {
          type="text"
          name="medium"
          placeholder="Artwork Medium"
-         value={medium}
          onChange={(e) => setMedium(e.target.value)}
          />
-           <input
+          <input
             type="text"
             name="artist"
             placeholder="Artist"
-            value={artist}
             onChange={(e) => setArtist(e.target.value)}
           />
            <input
           type="text"
           name="title"
           placeholder="Title"
-          value={title}
           onChange={(e) => setTitle(e.target.value)}
           />
           <input
@@ -72,13 +71,12 @@ function NewArtworkForm({ onAddArtwork }) {
            name="year"
            placeholder="Year"
            value={year}
-           onChange={(e) => setYear(e.target.value)}
+           onChange={(e) => setYear(parseFloat(e.target.value))}
          />
          <input 
           type="text"
           name="image"
           placeholder="Image URL"
-          value={image}
           onChange={(e) => setImage(e.target.value)}
          />
            <button type="submit">Add Artwork</button>

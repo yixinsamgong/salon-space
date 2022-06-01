@@ -1,8 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function ArtworkCard({artwork}) {
+  const [like, setLike] = useState(true)
+  const {medium, artist, title, year, 
+    image="https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg"} = artwork
 
-  const {medium, artist, title, year, image} = artwork
+  function handleToggleClick (){
+    setLike((like) => !like)
+}
 
   return (
     <li className="card">
@@ -11,10 +16,10 @@ function ArtworkCard({artwork}) {
       <p>{title}</p>
       <p>{year}</p>
       <p>{medium}</p>
-      {true ? (
-        <button className="primary">♥</button>
+      {like ? (
+        <button className="button" onClick={handleToggleClick}>♥</button>
       ) : (
-        <button>♡</button>
+        <button className="button"onClick={handleToggleClick}>♡</button>
       )
       }
     </li>
