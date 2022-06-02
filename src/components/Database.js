@@ -19,16 +19,15 @@ const [newWorks, setNewWorks] = useState([])
                     .then(r=> r.json()) 
                     .then (
                         (id) => {
-                        setNewWorks(...newWorks, {
+                        setNewWorks([...newWorks, {
                             title: id.title,
                             image: id.primaryImageSmall,
                             date: id.objectDate,
                             artist: id.artist,
                             medium:id.medium,
-                        })
+                        }])
                         console.log(newWorks.artist)
                     })
-                    
                 })
             })},[])
 

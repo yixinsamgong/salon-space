@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(0, 8, 118);
+  --blue: rgb(0, 8, 118);
 }
 
 * {
@@ -92,26 +92,6 @@ main {
   padding: 0 1rem;
 }
 
-/* .newform {
-  padding: 2rem 1rem;
-  margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
-}
-
-.newform form {
-  display: flex;
-  justify-content: center;
-}
-
-.newform input {
-  margin-right: 2rem;
-  flex: 1;
-}
-
-.newform button {
-  width: 150px;
-} */
-
 .searchbar {
   font-family: monospace;
   padding: 5rem;
@@ -162,11 +142,7 @@ input:focus {
   margin-top: 2rem;
 }
 
-/* .btn{
-  margin-right: 50px;
-  margin-left: 50px;
-  font-family: monospace;
-} */
+
 
 
 @media (min-width: 768px) {
