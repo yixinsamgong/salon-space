@@ -1,151 +1,383 @@
 {
-  "artworks": [
-  {
-      "id": 1,
-      "medium": "watercolor",
-      "artist": "Sam Gillian",
-      "title": "Watercolor 4",
-      "year": 1969,
-      "image": "https://i.pinimg.com/564x/03/b8/3e/03b83ec88e69adc6bfa1592094c8a0c0.jpg"
-  },
-  
-  {
-      "id": 2,
-      "medium": "silkscreen",
-      "artist": "Roy Ahlgren",
-      "title": "Palpitation",
-      "year": 1979,
-      "image": "https://i.ebayimg.com/images/g/c6YAAOSwzMFhkwBT/s-l500.png"
-  },
-  {
-      "id": 3,
-      "medium": "photography",
-      "artist": "Alice Mann",
-      "title": "Siphithemba Mshengu",
-      "year": 2018,
-      "image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg" 
+    "artworks": [
+    {
+        "id": 1,
+        "medium": "watercolor painting",
+        "artist": "Sam Gillian",
+        "title": "Watercolor 4",
+        "year": 1969,
+        "image": "https://i.pinimg.com/564x/03/b8/3e/03b83ec88e69adc6bfa1592094c8a0c0.jpg"
+    },
+    {
+        "id": 2,
+        "medium": "silkscreen print",
+        "artist": "Roy Ahlgren",
+        "title": "Palpitation",
+        "year": 1979,
+        "image": "https://i.ebayimg.com/images/g/c6YAAOSwzMFhkwBT/s-l500.png"
+    },
+    {
+        "id": 3,
+        "medium": "photography",
+        "artist": "Alice Mann",
+        "title": "Siphithemba Mshengu",
+        "year": 2018,
+        "image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5abb9910a09a728e158b4568/cb2205e298da2ab3170916cc24036faa.jpeg" 
 
-  }, {
-      "id": 4,
-      "medium": "acrylic painting",
-      "artist": "Lee Ufan",
-      "title": "From Line",
-      "year": 1974,
-      "image": "https://uploads2.wikiart.org/images/lee-ufan/from-line-1974.jpg"
+    }, {
+        "id": 4,
+        "medium": "acrylic painting",
+        "artist": "Lee Ufan",
+        "title": "From Line",
+        "year": 1974,
+        "image": "https://uploads2.wikiart.org/images/lee-ufan/from-line-1974.jpg"
 
-  },
-  {
-      "id": 5,
-      "medium": "oil painting",
-      "artist": "Agnes Martin",
-      "title": "Friendship",
-      "year": 1963,
-      "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FBC/production/_112746596_a289f207-69f8-4fb9-b3a7-8ee0fff6126d.jpg"
+    },
+    {
+        "id": 5,
+        "medium": "oil painting",
+        "artist": "Agnes Martin",
+        "title": "Friendship",
+        "year": 1963,
+        "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FBC/production/_112746596_a289f207-69f8-4fb9-b3a7-8ee0fff6126d.jpg"
 
-  }, {
-      "id": 6,
-      "medium": "silkscreen",
-      "artist": "Marina Abramovic",
-      "title": "Homage to Frida Kahlo (Portrait with Scorpion",
-      "year": 2014,
-      "image": "https://i.pinimg.com/564x/4a/13/03/4a13039f49dc937039e3edc3c6e77e19.jpg"
+    }, {
+        "id": 6,
+        "medium": "silkscreen print",
+        "artist": "Marina Abramovic",
+        "title": "Homage to Frida Kahlo (Portrait with Scorpion",
+        "year": 2014,
+        "image": "https://i.pinimg.com/564x/4a/13/03/4a13039f49dc937039e3edc3c6e77e19.jpg"
 
-  }, {
-      "id": 7,
-      "medium": "oil painting",
-      "artist": "Joan Mitchell",
-      "title": "Wood, Wind, No Tuba",
-      "year": 1980,
-      "image": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1/auctions/NY010720/21_001.jpg"
+    }, {
+        "id": 7,
+        "medium": "oil painting",
+        "artist": "Joan Mitchell",
+        "title": "Wood, Wind, No Tuba",
+        "year": 1980,
+        "image": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1/auctions/NY010720/21_001.jpg"
 
-  }, {
-      "id": 8,
-      "medium": "photography",
-      "artist": "Larry Cook",
-      "title": "The Visiting Room #4",
-      "year": 2019,
-      "image": "https://i.pinimg.com/564x/67/39/15/673915b226298264250911ec89bd5391.jpg"
-  }, 
-  {
-      "id": 9,
-      "medium": "oil painting",
-      "artist": "Sam Moyer",
-      "title": "Large Payne 11",
-      "year": 2021,
-      "image": "https://files.ocula.com/anzax/ba/baaeb8c0-4ace-4b73-bdb1-8d2f60e4bc78_535_650.jpg"
+    }, {
+        "id": 8,
+        "medium": "photography",
+        "artist": "Larry Cook",
+        "title": "The Visiting Room #4",
+        "year": 2019,
+        "image": "https://i.pinimg.com/564x/67/39/15/673915b226298264250911ec89bd5391.jpg"
+    }, 
+    {
+        "id": 9,
+        "medium": "oil painting",
+        "artist": "Sam Moyer",
+        "title": "Large Payne 11",
+        "year": 2021,
+        "image": "https://files.ocula.com/anzax/ba/baaeb8c0-4ace-4b73-bdb1-8d2f60e4bc78_535_650.jpg"
 
-  }, 
-  {
-      "id": 10,
-      "medium": "sculpture",
-      "artist": "Robert Smithson",
-      "title": "Corner Mirror with Coral",
-      "year": 1969,
-      "image": "https://i.pinimg.com/originals/29/73/3d/29733d2c3e44ff8a83fd62720b2cd526.jpg"
+    }, 
+    {
+        "id": 10,
+        "medium": "sculpture",
+        "artist": "Robert Smithson",
+        "title": "Corner Mirror with Coral",
+        "year": 1969,
+        "image": "https://i.pinimg.com/originals/29/73/3d/29733d2c3e44ff8a83fd62720b2cd526.jpg"
 
-  }, 
-  {
-      "id": 11,
-      "medium": "acrylic painting",
-      "artist": "Raymond Johnson",
-      "title": "Polymer No. 14",
-      "year": 1968,
-      "image": "https://addisonrowe.art/wp-content/gallery/jonson_raymond/Jonson-Raymond-Polymer-14-1968-unframed.jpg"
+    }, 
+    {
+        "id": 11,
+        "medium": "acrylic painting",
+        "artist": "Raymond Johnson",
+        "title": "Polymer No. 14",
+        "year": 1968,
+        "image": "https://addisonrowe.art/wp-content/gallery/jonson_raymond/Jonson-Raymond-Polymer-14-1968-unframed.jpg"
 
-  }, 
-  {
-      "id": 12,
-      "medium": "oil painting",
-      "artist": "Julia Rommel",
-      "title": "Volvo",
-      "year": 2019,
-      "image": "https://i.pinimg.com/564x/6f/71/4b/6f714b35ec27f6dcb3dfe9cd7eb4f17e.jpg"
+    }, 
+    {
+        "id": 12,
+        "medium": "oil painting",
+        "artist": "Julia Rommel",
+        "title": "Volvo",
+        "year": 2019,
+        "image": "https://i.pinimg.com/564x/6f/71/4b/6f714b35ec27f6dcb3dfe9cd7eb4f17e.jpg"
 
-  },
-  {
-      "id": 13,
-      "medium": "print",
-      "artist": "Martha Tuttle",
-      "title": "Water / Skin",
-      "year": 2017,
-      "image": "https://i.pinimg.com/564x/db/e0/8f/dbe08f58933987834ad123a6f9a32d89.jpg"
+    },
+    {
+        "id": 13,
+        "medium": "print",
+        "artist": "Martha Tuttle",
+        "title": "Water / Skin",
+        "year": 2017,
+        "image": "https://i.pinimg.com/564x/db/e0/8f/dbe08f58933987834ad123a6f9a32d89.jpg"
 
-  }, 
-  {
-      "id": 14,
-      "medium": "oil",
-      "artist": "Gerhard Richter",
-      "title": "Grey Streaks",
-      "year": 1968,
-      "image": "https://www.gerhard-richter.com/datadir/images_new/xxlarge/2931.jpg"
+    }, 
+    {
+        "id": 14,
+        "medium": "oil painting",
+        "artist": "Gerhard Richter",
+        "title": "Grey Streaks",
+        "year": 1968,
+        "image": "https://www.gerhard-richter.com/datadir/images_new/xxlarge/2931.jpg"
 
-  },
-  {
-      "id": 15,
-      "medium": "sculpture",
-      "artist": "Anicka Yi",
-      "title": "Shampelex",
-      "year": 2015,
-      "image":"https://www.gladstonegallery.com/sites/default/files/AY_07_e.jpg"
+    },
+    {
+        "id": 15,
+        "medium": "sculpture",
+        "artist": "Anicka Yi",
+        "title": "Shampelex",
+        "year": 2015,
+        "image":"https://www.gladstonegallery.com/sites/default/files/AY_07_e.jpg"
 
-  },
-  {
-      "id": 16,
-      "medium": "oil",
-      "artist": "Amy Sillman",
-      "title": "Table 2",
-      "year": 2015,
-      "image": "https://i.pinimg.com/564x/47/18/fc/4718fce48b495958b052c72612ef865c.jpg"
+    },
+    {
+        "id": 16,
+        "medium": "oil painting",
+        "artist": "Amy Sillman",
+        "title": "Table 2",
+        "year": 2015,
+        "image": "https://i.pinimg.com/564x/47/18/fc/4718fce48b495958b052c72612ef865c.jpg"
 
-  },
-  {
-      "id": 17,
-      "medium": "photography",
-      "artist": "Carrie Mae Weems",
-      "title": "Untitled (Man Smoking)",
-      "year": 1990,
-      "image": "https://www.ladykflo.com/wp-content/uploads/2021/10/Man-Smoking-Malcolm-X.jpg"
+    },
+    {
+        "id": 17,
+        "medium": "photography",
+        "artist": "Carrie Mae Weems",
+        "title": "Untitled (Man Smoking)",
+        "year": 1990,
+        "image": "https://www.ladykflo.com/wp-content/uploads/2021/10/Man-Smoking-Malcolm-X.jpg"
 
-  }
+    },
+    {
+        "id": 18,
+        "medium": "photography (gelatin silver print)",
+        "artist": "Walker Evans",
+        "title": "Subway Portrait",
+        "year": 1938,
+        "image": "https://i.pinimg.com/564x/8f/09/02/8f0902ebb66e0e0269adad4f46ca1fb2.jpg"
+
+    },
+    {
+        "id": 19,
+        "medium": "oil painting",
+        "artist": "Ellsworth Kelly",
+        "title": "Colors for a Large Wall",
+        "year": 1951,
+        "image":"https://i.pinimg.com/736x/31/4a/31/314a3167a18a04be0ac43152fd36563a.jpg"
+
+    },
+    {
+        "id": 20,
+        "medium": "acrylic painting (on striped cotton)",
+        "artist": "Daniel Buren",
+        "title": "Striped cotton fabric with vertical white and colored bands of 8,7cm (+/- 0,3 cm) each. The two external white bands covered over with acrylic white paint recto-verso",
+        "year": 1970,
+        "image":"https://www.moma.org/media/W1siZiIsIjUxNTQxMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 21,
+        "medium": "sculpture, installation",
+        "artist": "Donald Judd",
+        "title": "Untitled",
+        "year": 1967,
+        "image": "https://www.moma.org/media/W1siZiIsIjMxMTkwNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 22,
+        "medium": "sculpture, installation",
+        "title": "Repetition Nineteen III",
+        "artist": "Eva Hess",
+        "year": 1968,
+        "image": "https://www.moma.org/media/W1siZiIsIjIxMTk2MyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 23,
+        "medium": "sculpture (fluorescent light and metal fixtures",
+        "title": "Untitled",
+        "artist": "Dan Flavin",
+        "year": 1968,
+        "image": "https://www.moma.org/media/W1siZiIsIjMzMjMyNCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 24,
+        "medium": "oil painting",
+        "artist": "Huguette Caland",
+        "title": "Bribes de Corps",
+        "year": 1973,
+        "image": "https://i.pinimg.com/564x/bc/54/75/bc5475ebf62f56db5ff4a06b6c635638.jpg"
+
+    },
+    {
+        "id": 25,
+        "medium": "acrylic painting",
+        "artist": "Helen Frankenthaler",
+        "title": "Sentry",
+        "year": 1976,
+        "image": "https://www.frankenthalerfoundation.org/images/1976_Sentry0.jpg"
+
+    },
+    {
+        "id": 26,
+        "medium": "sculpture",
+        "artist": "Peter Alexander",
+        "title": "Four Spheres",
+        "year": 1965,
+        "image": "https://peteralexander.com/wp-content/uploads/2016/09/FourSpheres1965castpolyresin5x12x12-.jpg"
+
+    },
+    {
+        "id": 27,
+        "medium": "oil painting",
+        "artist": "Richard Diebenkorn",
+        "title": "Ocean Park No. 130",
+        "year": 1985,
+        "image": "https://i.pinimg.com/564x/46/91/23/469123ef08520114c102c44e4890fb86.jpg"
+
+    },
+    {
+        "id": 28,
+        "medium": "drawing",
+        "artist": "Lori Ellison",
+        "title": "Untitled (Notebook Drawing)",
+        "year": 1998,
+        "image": "https://www.moma.org/media/W1siZiIsIjE1NDUyMiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDE0NDB4MTA4MFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 29,
+        "medium": "drawing (soot on paper)",
+        "artist": "Otto Piene",
+        "title": "Untitled (Smoke Drawing)",
+        "year": 1959,
+        "image": "https://www.moma.org/media/W1siZiIsIjI4NjMzOSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTUwMFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 30,
+        "medium": "drawing, ink on paper",
+        "artist": "Sophie Tottie",
+        "title": "Written Language (line drawings), # V",
+        "year": 2008,
+        "image": "https://www.moma.org/media/W1siZiIsIjI1NzA5MiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTUwMFx1MDAzZSJdXQ.jpg?"
+
+    },
+    {
+        "id": 31,
+        "medium": "drawing, pencil and charcoal on notebook paper",
+        "artist": "Adrian Piper",
+        "title": "Drawings about Paper and Writings about Words #47",
+        "year": 1967,
+        "image": "https://www.moma.org/media/W1siZiIsIjQyMzQyMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTUwMFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 32,
+        "medium": "Ukiyo-e Japanese style print",
+        "artist": "James Turrell",
+        "title": "From Aten Reign",
+        "year": 2016,
+        "image": "https://i.pinimg.com/564x/94/5f/0e/945f0ed1dd94a13188d3689dbbdacd66.jpg"
+
+    },
+
+    {
+        "id": 33,
+        "medium": "photography, polaroid",
+        "title": "Still Life",
+        "year": 2000,
+        "image": "http://www.artnet.com/WebServices/images/ll2105371llgykbR3CfDrCWBHBAD/nobuyoshi-araki-still-life.jpg"
+
+    },
+    {
+        "id": 34,
+        "medium": "chromogenic print",
+        "artist": "Roe Ethridge",
+        "title": "White Stairs",
+        "year": 2011,
+        "image": "https://www.moma.org/media/W1siZiIsIjIzNjYwOSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDEzNTR4MTM1NFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 35,
+        "medium": "ink drawing",
+        "artist": "Elaine de Kooning",
+        "title": "Unused preparatory drawing for In my Feelings",
+        "year": 1967,
+        "image": "https://www.moma.org/media/W1siZiIsIjMwOTAyNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTUwMFx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 36,
+        "medium": "photography, gelatin silver print",
+        "artist":"Zoe Leonard",
+        "title": "Analogue",
+        "year": 1998,
+        "image": "https://www.moma.org/media/W1siZiIsIjMyMTUwMSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg"
+
+    },
+    {
+        "id": 37,
+        "medium": "photography",
+        "artist": "Maisie Cousins",
+        "title": "Rubbish",
+        "year": 2018,
+        "image": "https://i.pinimg.com/564x/45/cc/4d/45cc4dd20cfe64e3fc30c900ec5b8fd8.jpg"
+    },
+    {
+        "id": 38,
+        "medium": "drawing, lithograph",
+        "artist": "Joanne Greenbaum",
+        "title": "Untitled (red)",
+        "year": 2012,
+        "image": "https://i.pinimg.com/564x/e2/81/0b/e2810b1025323464a55810022a2a83b9.jpg"
+
+    },
+    {
+        "id": 39,
+        "medium": "painting, oil on linen",
+        "artist": "Martha Diamond",
+        "title": "Facade",
+        "year": 1982,
+        "image": "https://magentaplains.com/content/2-exhibitions/14-martha-diamond/mdi_004.jpg"
+
+    },
+    {
+        "id": 40,
+        "medium": "painting, oil stick and acrylic",
+        "artist": "Catherine Haggarty",
+        "title": "Mockingbird",
+        "year": 2020,
+        "image": "https://images.squarespace-cdn.com/content/v1/5bdf30baaf2096f5f27d3f6c/1607401999029-8Z5V7KSISTVQJIUPSDBQ/image-asset.jpeg"
+
+    },
+    {
+        "id": 41,
+        "medium": "painting, oil on masonite",
+        "artist": "Theodoros Stamos",
+        "title": "Migration",
+        "year": 1948,
+        "image": "https://artlogic-res.cloudinary.com/w_2000,h_2000,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/htg1979/images/view/94ac3731bf2b32e2cd9b5733a97f1029j/hollistaggart-theodoros-stamos-migration-1948.jpg"
+
+    },
+    {
+        "id": 42,
+        "medium": "lithograph",
+        "artist": "Gene Davis",
+        "title": "Banjo",
+        "year": 1981,
+        "image": "https://i.pinimg.com/564x/a6/0f/a8/a60fa80618c47ff0c149d41e2dd28540.jpg"
+
+    },
+    {
+        "id": 43,
+        "medium": "drawing, colored pencil",
+        "artist": "Zipora Fried",
+        "title": "There is No Lie in This #3",
+        "year": 2020,
+        "image": "https://images.squarespace-cdn.com/content/v1/57be00ee5016e19d59384f83/1623172630496-701BHQGM6GDG4GH4UZHI/SJ5-6-2170289_cc.jpeg"
+
+    }
 ]
 }

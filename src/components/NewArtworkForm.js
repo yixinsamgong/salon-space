@@ -45,7 +45,7 @@ function NewArtworkForm({ onAddArtwork }) {
   return (
 //include text input area with states
 //target input value for users to enter information
-    <div className="new-artwork-form">
+    <div >
       <h2>Add Artwork</h2>
        <form onSubmit={handleSubmit}>
           <input

@@ -6,17 +6,25 @@ function NavBar() {
   return (
     <nav>
       <div>
-      <NavLink to="/home"  className="btn">
-        My Collection
+      <NavLink to="/">
+              <button class="btn text-dark">
+                My Collection
+                </button>
       </NavLink>
-      <NavLink to="/database" className="btn">
-          Database
+      <NavLink to="/database" >
+            <button class="btn text-dark">
+              Database
+              </button>
       </NavLink>
-      <NavLink to="/form" className="btn">
-      New Artwork Submission
+      <NavLink to="/form" >
+            <button class="btn text-dark"> 
+            New Artwork Submission
+            </button>
       </NavLink>
-      <NavLink to="/about" className="btn">
-        About
+      <NavLink to="/about">
+              <button class="btn text-dark">
+                About
+                </button>
       </NavLink>
       </div>
     </nav>

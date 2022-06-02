@@ -34,23 +34,23 @@ function App() {
 
   return (
     <div>
+
       <Header />
       <NavBar />
-        <Switch>
-          < Route exact path="/home">
+        <Switch>      
+          <Route path="/about">
+              <About />
+          </Route>
+          <Route  path="/database">
+              <Database />
+          </Route>
+          <Route  path="/form">
+              <NewArtworkForm onAddArtwork={addNewArtwork} />
+          </Route>
+          < Route exact path="/">
               <SearchBar searchTerm={search} onSearchChange={setSearch}/>
               <ArtworkContainer artworks={displayArtworks}/>
            </Route>
-           <Route exact path="/about">
-              <About />
-          </Route>
-          <Route exact path="/database">
-              <SearchBar searchTerm={search} onSearchChange={setSearch}/>
-              <Database />
-          </Route>
-          <Route exact path="/form">
-              <NewArtworkForm onAddArtwork={addNewArtwork} />
-          </Route>
       </Switch>
     </div>
   )

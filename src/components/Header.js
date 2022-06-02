@@ -5,12 +5,12 @@ import React from 'react'
 
 function Header() {
   return (
-    <header>
+    <header href="#">
       <h1>
-        Flatiron Art Salon
-        <span className="logo" role="img">
+        Flatiron Art Salon //   
+        {/* <span className="logo" role="img">
           🖼
-        </span>
+        </span> */}
       </h1>
     </header>
   );

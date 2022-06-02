@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(111, 46, 180);
+  --green: rgb(0, 8, 118);
 }
 
 * {
@@ -33,13 +33,53 @@ button {
 }
 
 header h1 {
-  font-family: monospace;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2.5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
 }
 
+nav div  {
+  margin-top: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+
+nav div button {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+li p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right:10px;
+  row-gap: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li h4{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+  font-style: italic;
+}
+
+div h3{
+  margin: auto;
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .logo {
   font-size: 1.25em;
@@ -52,25 +92,25 @@ main {
   padding: 0 1rem;
 }
 
-.new-plant-form {
+/* .newform {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(181, 250, 181, 0.5);
 }
 
-.new-plant-form form {
+.newform form {
   display: flex;
   justify-content: center;
 }
 
-.new-plant-form input {
+.newform input {
   margin-right: 2rem;
   flex: 1;
 }
 
-.new-plant-form button {
+.newform button {
   width: 150px;
-}
+} */
 
 .searchbar {
   font-family: monospace;
@@ -101,11 +141,13 @@ input:focus {
 
 .cards {
   list-style: none;
-   margin: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 3.6rem;
 }
 
 .card {
   margin: 1rem;
+  margin-bottom: 50px;
 }
 
 .card img {
@@ -120,12 +162,11 @@ input:focus {
   margin-top: 2rem;
 }
 
-.btn{
+/* .btn{
   margin-right: 50px;
   margin-left: 50px;
-
   font-family: monospace;
-}
+} */
 
 
 @media (min-width: 768px) {

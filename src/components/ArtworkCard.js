@@ -13,13 +13,13 @@ function ArtworkCard({artwork}) {
     <li className="card">
       <img src={image} alt={artist} />
       <h4>{artist}</h4>
-      <p>{title}</p>
+      <p className="title">{title}</p>
       <p>{year}</p>
       <p>{medium}</p>
       {like ? (
-        <button className="button" onClick={handleToggleClick}>♥</button>
-      ) : (
         <button className="button"onClick={handleToggleClick}>♡</button>
+      ) : (
+        <button className="button" onClick={handleToggleClick}>♥</button>
       )
       }
     </li>
