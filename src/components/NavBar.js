@@ -13,7 +13,7 @@ function NavBar() {
       </NavLink>
       <NavLink to="/database" >
             <button class="btn text-dark">
-              Database
+              Search Database
               </button>
       </NavLink>
       <NavLink to="/form" >
