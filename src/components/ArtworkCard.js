@@ -1,13 +1,31 @@
-import React from 'react'
-import ArtworkContainer from './ArtworkContainer';
+import React,{useState} from 'react'
 
-function ArtworkCard({ artworks }) {
+function ArtworkCard({artwork}) {
+  const [like, setLike] = useState(true)
+  const {medium, artist, title, year, 
+    image="https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg"} = artwork
 
-
-
-
-
-
+  function handleToggleClick (){
+    setLike((like) => !like)
 }
 
-export default ArtworkCard;
+  return (
+    <li className="card">
+      <img src={image} alt={artist} />
+      <h4>{artist}</h4>
+      <p className="title">{title}</p>
+      <p>{year}</p>
+      <p>{medium}</p>
+      {like ? (
+        <button className="button"onClick={handleToggleClick}>♡</button>
+      ) : (
+        <button className="button" onClick={handleToggleClick}>♥</button>
+      )
+      }
+    </li>
+  )
+}
+
+
+
+export default ArtworkCard
