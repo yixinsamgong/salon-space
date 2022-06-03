@@ -22,7 +22,7 @@ function App() {
 
 
   const displayArtworks = artworks.filter((artwork) => 
-      Object.values(artwork).join(" ").toLowerCase().includes(search.toLowerCase())
+      Object.values(artwork).join("_").toLowerCase().includes(search.toLowerCase())
   )
 
   function addNewArtwork(newArtwork) {

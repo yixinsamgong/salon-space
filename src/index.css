@@ -143,8 +143,6 @@ input:focus {
 }
 
 
-
-
 @media (min-width: 768px) {
   .cards {
     display: flex;

@@ -1,38 +1,48 @@
 import React, {useEffect,useState} from 'react'
-import SearchBar from "./SearchBar"
+// import SearchBar from "./SearchBar"
 import NewContainer from "./NewContainer"
-import NewArtworkForm from './NewArtworkForm'
+import SearchBar from "./SearchBar"
+
 
 function Database() {
 
 // const [search,setSearch] = useState("")
 const [newWorks, setNewWorks] = useState([])
+const [ids, setIds] = useState([])
+let arr =[]
 
-        useEffect(() => {
-            fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?isHighlight=true&q=Highlight`)
+
+useEffect(() => {
+        fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?isHighlight=true&q=highlight`)                                            
             .then(r=> r.json())
             .then((data) => {
-                // data = data.filter(entry => entry.created > 100).slice(0, 100);
-                //     console.log(data.objectIDs)
-                data.objectIDs.map((id) => {
-                    fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`)
-                    .then(r=> r.json()) 
-                    .then (
-                        (id) => {
-                        setNewWorks([...newWorks, {
-                            title: id.title,
-                            image: id.primaryImageSmall,
-                            date: id.objectDate,
-                            artist: id.artist,
-                            medium:id.medium,
-                        }])
-                        console.log(newWorks.artist)
-                    })
+                setIds([...data.objectIDs])
+                // console.log(ids) 
+              ids.map((id) => {
+                fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`)
+                .then(r=> r.json())
+                .then ((id) => {
+                    arr.push({
+                    title: id.title,
+                    image: id.primaryImageSmall,
+                    date: id.objectDate,
+                    artist: id.artistDisplayName,
+                    medium:id.medium
                 })
-            })},[])
+                    setNewWorks([...arr])
+                })
+            }
+        )
+    })} // eslint-disable-next-line react-hooks/exhaustive-deps
+,[])
+
+// console.log(search)
+console.log(newWorks)
 
            
-            
+// const displayArtworks = newWorks.filter((newWork) => 
+//             newWork.artist.toLowerCase().includes(search.toLowerCase())
+//             )
 
 return (
     <div> 
@@ -41,5 +51,7 @@ return (
     </div>
   )
 
+
 }
 export default Database
+

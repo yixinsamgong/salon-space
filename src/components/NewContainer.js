@@ -5,7 +5,7 @@ function NewContainer({newWorks}) {
 
   const newCard = newWorks.map((newWork)=> (
       <NewCard 
-        key={newWork.image}
+        key={newWork.id}
         newWork={newWork}
       />
   ))
