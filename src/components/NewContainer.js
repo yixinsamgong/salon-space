@@ -1,12 +1,13 @@
 import React from 'react'
 import NewCard from "./NewCard"
 
-function NewContainer({newWorks}) {
+function NewContainer({newWorks, handleClick}) {
 
   const newCard = newWorks.map((newWork)=> (
       <NewCard 
-        key={newWork.image}
+        key={newWork.id}
         newWork={newWork}
+        handleClick={handleClick}
       />
   ))
 

@@ -11,7 +11,8 @@ import { Route, Switch } from "react-router-dom";
 function App() {
 
   const [artworks, setArtworks] = useState([]) 
-  const [search, setSearch] = useState("") 
+  const [search, setSearch] = useState("")
+
 
   
   useEffect(() => {
@@ -20,15 +21,18 @@ function App() {
     .then (setArtworks)
   }, [])
 
-
-  const displayArtworks = artworks.filter((artwork) => 
-      Object.values(artwork).join(" ").toLowerCase().includes(search.toLowerCase())
-  )
-
   function addNewArtwork(newArtwork) {
+    console.log("In ShoppingList:", newArtwork)
     const updatedArtworkArray = [...artworks, newArtwork];
     setArtworks(updatedArtworkArray);
+    console.log(updatedArtworkArray)
   }
+
+
+
+  const displayArtworks = artworks.filter((artwork) => 
+      Object.values(artwork).join("_").toLowerCase().includes(search.toLowerCase())
+  )
 
 
 
@@ -42,7 +46,10 @@ function App() {
               <About />
           </Route>
           <Route  path="/database">
-              <Database />
+              <Database  
+              search={search} onSearch={setSearch}
+              handleClick={addNewArtwork} 
+              />
           </Route>
           <Route  path="/form">
               <NewArtworkForm onAddArtwork={addNewArtwork} />

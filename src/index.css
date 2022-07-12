@@ -1,3 +1,5 @@
+
+   
 :root {
   --blue: rgb(0, 8, 118);
 }
@@ -23,7 +25,6 @@ button {
   background: none;
   transition: color 300ms;
   cursor: pointer;
-
 }
 
 
@@ -35,7 +36,8 @@ button {
 header h1 {
   margin-top: 50px;
   margin-bottom: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lekton', sans-serif;
+  font-weight: 900;
   font-size: 2.5em;
   font-weight: 900;
   text-align: center;
@@ -59,18 +61,14 @@ li p{
   margin-left: 10px;
   margin-right:10px;
   row-gap: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 li h4{
   margin-top: 25px;
   margin-bottom: 10px;
   margin-left: 10px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.title{
-  font-style: italic;
+  font-family: 'Poppins', sans-serif;
 }
 
 div h3{
@@ -78,7 +76,7 @@ div h3{
   width: 70%;
   margin-top: 40px;
   margin-bottom: 30px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .logo {
@@ -168,3 +166,21 @@ input:focus {
   }
 }
 
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
+
+a:visited {color: black}  
+
+
+.artwork-form button{
+  color:rgb(0, 8, 118)
+}
+
+.add-artwork {
+  font-family: 'IBM Plex Mono', monospace;
+}
+.artwork-form {
+  font-family: 'IBM Plex Mono', monospace;
+}

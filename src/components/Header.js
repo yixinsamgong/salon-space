@@ -7,7 +7,7 @@ function Header() {
   return (
     <header href="#">
       <h1>
-        Flatiron Art Salon //   
+        Salon Space //   
         {/* <span className="logo" role="img">
           🖼
         </span> */}
