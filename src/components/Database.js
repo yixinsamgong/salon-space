@@ -4,50 +4,59 @@ import NewContainer from "./NewContainer"
 import SearchBar from "./SearchBar"
 
 
-function Database() {
+function Database({handleClick}) {
 
-// const [search,setSearch] = useState("")
 const [newWorks, setNewWorks] = useState([])
-const [ids, setIds] = useState([])
-let arr =[]
+// const [ids, setIds] = useState([])
+const [search, setSearch] = useState("")
 
+// let arr =[]
 
+//useEffect 2. when ids state gets updated, start fetching each individual id
+//useEffect 1. gets ids when search term changes
 useEffect(() => {
-        fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?isHighlight=true&q=highlight`)                                            
+        if (!search) return;
+        fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?artistOrCulture=true&q=${search}`)                                            
             .then(r=> r.json())
             .then((data) => {
-                setIds([...data.objectIDs])
-                // console.log(ids) 
-              ids.map((id) => {
-                fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`)
-                .then(r=> r.json())
-                .then ((id) => {
-                    arr.push({
-                    title: id.title,
-                    image: id.primaryImageSmall,
-                    date: id.objectDate,
-                    artist: id.artistDisplayName,
-                    medium:id.medium
-                })
-                    setNewWorks([...arr])
-                })
-            }
-        )
-    })} // eslint-disable-next-line react-hooks/exhaustive-deps
-,[])
+                // console.log('Data', data)
+                // let list = data.objectIDs.filter(entry => entry.created > 100).slice(0, 99);
+                let idList = data.objectIDs.slice(0,10)
+                // console.log(list)
+                // setIds(list)
+                // do the search functionality right here
+                let artList = []
+                idList.forEach(async (id) => {
+                    let req = await fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`);
+                    let res = await req.json()
+                    let art = {
+                        title: res.title,
+                        image: res.primaryImageSmall,
+                        date: res.objectDate,
+                        artist: res.artistDisplayName,
+                        medium: res.medium,
+                        reference: res.objectURL
+                    }
+                    console.log('Work of art', art)
+                    artList.push(art)
+                    console.log('Art list', artList)
+                    setNewWorks(artList)
 
-// console.log(search)
-console.log(newWorks)
+                })
+            })
+        } // eslint-disable-next-line react-hooks/exhaustive-deps
+,[search])
 
-           
-// const displayArtworks = newWorks.filter((newWork) => 
-//             newWork.artist.toLowerCase().includes(search.toLowerCase())
-//             )
+//   const displayArtworks = newWorks.filter((newWork) => 
+//       Object.values(newWork).join(" ").toLowerCase().includes(search.toLowerCase())
+//   )
+
+// console.log(newWorks)
 
 return (
-    <div> 
-    {/* <SearchBar searchTerm={search} onSearchChange={setSearch}/> */}
-    <NewContainer newWorks={newWorks} />
+    <div>     
+    <SearchBar searchTerm={search} onSearchChange={setSearch}/>
+    <NewContainer newWorks={newWorks} handleClick={handleClick} />
     </div>
   )
 

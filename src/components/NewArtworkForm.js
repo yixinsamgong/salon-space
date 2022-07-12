@@ -46,8 +46,8 @@ function NewArtworkForm({ onAddArtwork }) {
 //include text input area with states
 //target input value for users to enter information
     <div >
-      <h2>Add Artwork</h2>
-       <form onSubmit={handleSubmit}>
+    <h2 class="add-artwork">Add Artwork</h2>
+       <form class="artwork-form"onSubmit={handleSubmit}>
           <input
          type="text"
          name="medium"
@@ -79,7 +79,7 @@ function NewArtworkForm({ onAddArtwork }) {
           placeholder="Image URL"
           onChange={(e) => setImage(e.target.value)}
          />
-           <button type="submit">Add Artwork</button>
+           <button type="submit">Add to database</button>
         </form>
     </div>
   );
