@@ -50,7 +50,7 @@ function SearchBar({searchTerm,onSearchChange}) {
               placeholder="Type to search..."
               // value={searchTerm}
               onChange={(e) => onSearchChange(e.target.value)}
-              autoComplete="off"
+              autoComplete="on"
             />
           </div>
         )

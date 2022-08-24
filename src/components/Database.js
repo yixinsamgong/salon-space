@@ -41,7 +41,6 @@ useEffect(() => {
                     artList.push(art)
                     console.log('Art list', artList)
                     setNewWorks(artList)
-
                 })
             })
         } // eslint-disable-next-line react-hooks/exhaustive-deps

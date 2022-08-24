@@ -33,8 +33,9 @@ function NewArtworkForm({ onAddArtwork }) {
         image: image,
       }),
     })
-      .then((response)  => response.json())
+      .then((response)  => response.json()) 
       .then((newArtwork) => onAddArtwork(newArtwork));
+      
     //add new artwork to page
   }
 
