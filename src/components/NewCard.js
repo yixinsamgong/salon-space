@@ -1,9 +1,6 @@
 import React, {useState}from 'react'
 
-
-
 function NewCard({newWork, handleClick}) {
-  
   
  const [addWork, setAddWork] = useState([])
 
@@ -17,7 +14,6 @@ function NewCard({newWork, handleClick}) {
           reference}= newWork
 
 function handleClick(){
-  // console.log(artist)
   fetch("http://localhost:4000/artworks", {
     method: "POST",
     headers: {
