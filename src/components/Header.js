@@ -1,8 +1,5 @@
 import React from 'react'
 
-// import NavBar from "./NavBar"
-// import SearchBar from "./SearchBar"
-
 function Header() {
   return (
     <header href="#">
