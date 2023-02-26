@@ -1,5 +1,4 @@
 import React, {useEffect,useState} from 'react'
-// import SearchBar from "./SearchBar"
 import NewContainer from "./NewContainer"
 import SearchBar from "./SearchBar"
 
@@ -7,10 +6,7 @@ import SearchBar from "./SearchBar"
 function Database({handleClick}) {
 
 const [newWorks, setNewWorks] = useState([])
-// const [ids, setIds] = useState([])
 const [search, setSearch] = useState("")
-
-// let arr =[]
 
 //useEffect 2. when ids state gets updated, start fetching each individual id
 //useEffect 1. gets ids when search term changes
@@ -47,10 +43,9 @@ useEffect(() => {
 ,[search])
 
 //   const displayArtworks = newWorks.filter((newWork) => 
-//       Object.values(newWork).join(" ").toLowerCase().includes(search.toLowerCase())
+//   Object.values(newWork).join(" ").toLowerCase().includes(search.toLowerCase())
 //   )
-
-// console.log(newWorks)
+//   console.log(newWorks)
 
 return (
     <div>     
@@ -58,8 +53,6 @@ return (
     <NewContainer newWorks={newWorks} handleClick={handleClick} />
     </div>
   )
-
-
 }
 export default Database
 

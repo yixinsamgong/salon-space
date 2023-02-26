@@ -8,9 +8,6 @@ function Header() {
     <header href="#">
       <h1>
         Salon Space //   
-        {/* <span className="logo" role="img">
-          🖼
-        </span> */}
       </h1>
     </header>
   );
